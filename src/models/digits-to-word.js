@@ -77,7 +77,7 @@ class DigitsToWord {
         
     //turn number into an array
     arrayify(input) {
-        var stringNum;
+        let stringNum;
         if (typeof (input) == 'string'){
             stringNum = input;
         }
@@ -100,12 +100,12 @@ class DigitsToWord {
         
       
         const spelledNums = [];
-        var spelledArray = [];
+        let spelledArray = [];
         const tempNums = [];
       
         const arrayOfNums = this.arrayify(number);
         console.log(arrayOfNums);
-        var myLength = arrayOfNums.length;
+        let myLength = arrayOfNums.length;
     
         while (myLength > 0) {
             tempNums.push(arrayOfNums.splice(-3, 3));
@@ -170,7 +170,7 @@ class DigitsToWord {
           return element !== " ";
         }
 
-        var arrayNum = [];
+        let arrayNum = [];
         arrayNum = myNumber;
         const phrasifiedNums = arrayNum.filter(isNotEmpty);
         const numPhrase = phrasifiedNums.join(" ");
@@ -217,7 +217,7 @@ class DigitsToWord {
             return ('zero');
         } else {
             
-            var noZeros = this.checkZero(cleanNumber);
+            let noZeros = this.checkZero(cleanNumber);
             console.log(noZeros);
             const wordArray = this.spellItOut(noZeros);
             console.log(wordArray);
