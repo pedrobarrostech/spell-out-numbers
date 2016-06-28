@@ -1,3 +1,5 @@
+# Spell out numbers
+
 [![Build Status](https://travis-ci.org/pedrobarrostech/spell-out-numbers.png?branch=master)](https://travis-ci.org/pedrobarrostech/spell-out-numbers)
 [![Coverage Status](https://img.shields.io/coveralls/pedrobarrostech/spell-out-numbers.svg)](https://coveralls.io/r/pedrobarrostech/spell-out-numbers?branch=master)
 
